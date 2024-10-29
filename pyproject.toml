@@ -1,0 +1,17 @@
+
+[tool.poetry]
+name = "mnist-classifier"
+version = "0.1.0"
+description = "A simple CNN model for digit classification using PyTorch."
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = "^2.0.0"  # Adjust version as necessary
+torchvision = "^0.15.0"  # Adjust version as necessary
+matplotlib = "^3.4.0"  # Optional, for visualizations
+numpy = "^1.21.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
